@@ -2,7 +2,7 @@
 Contributors: wponlinesupport, anoopranawat
 Requires at least: WordPress 4.1
 Tested up to: WordPress 4.9.4
-Stable tag: 1.0.6.1
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, two-columns, editor-style, left-sidebar, custom-colors, custom-header, custom-logo, custom-menu, featured-images,  post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
@@ -58,6 +58,10 @@ Images for screenshot
 Images license : https://www.pexels.com/photo-license/
 
 == Changelog ==
+
+=  1.0.7 =
+* [+] Added Theme URL
+* [*] Fixed some CSS issues
 
 =  1.0.6.1 =
 * Customizer new section added.
