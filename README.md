@@ -1,4 +1,4 @@
-# MangoDevelopersWebpage
+# Mango Developers Webpage 
 The first point of interaction for Mango Developers.
 
 Currently all the commits are related to google i/o extended rochester 2018.
