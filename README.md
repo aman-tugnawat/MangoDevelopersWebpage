@@ -18,6 +18,6 @@ When the lecture was over, he approached one of the other students, and said, "I
 
     "Easy," replied the other student, "you visualize it rotating in N dimensions, then let N go to 8."
                                                                                                       —old joke
-
-"Everybody is gifted in someway, if you don't let others, discover that gift, you can't be gifted."     -Aman Tugnawat
+    "Everybody is gifted in someway, if you don't let others, discover that gift, you can't be gifted."     
+                                                                                                     -Aman Tugnawat
 
