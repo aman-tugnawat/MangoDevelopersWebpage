@@ -12,3 +12,12 @@ help us be successful in that and suggest issues in the website.
  > We appriciate you taking the time to read about us, and we request you to post some issues on github.
 
  > And if you decided to make a pull request, you are helping the rochester developer community.
+ 
+ Once upon a time, there was a student who went to a math lecture.  
+When the lecture was over, he approached one of the other students, and said, "I couldn't follow that at all.  The professor was talking about rotating 8-dimensional objects!  How am I supposed to visualize something rotating in 8 dimensions?"
+
+    "Easy," replied the other student, "you visualize it rotating in N dimensions, then let N go to 8."
+                                                                                                      —old joke
+
+"Everybody is gifted in someway, if you don't let others, discover that gift, you can't be gifted."     -Aman Tugnawat
+
