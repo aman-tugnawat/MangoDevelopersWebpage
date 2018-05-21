@@ -1,45 +1,25 @@
 #Redirects for subdomains
 RewriteEngine on 
-#Redirect / /collegeinsider
 
 # Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
-#RewriteBase /
-
-#RewriteCond %{HTTP_HOST} ^apps\.mangodevelopers\.com$
-#RewriteRule (.*) http://apps.mangodevelopers.com/$1 [R=301,L]
-#RewriteRule ^$ collegeinsider [L]
 
 
 Options -Indexes
 
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:Duheva
 ErrorDocument 400 /error/400.html
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Duheva:ERRORPAGEID
 
 
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:nyseqe
 ErrorDocument 401 /error/401.html
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE nyseqe:ERRORPAGEID
 
 
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:eQySeQ
 ErrorDocument 403 /error/403.html
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE eQySeQ:ERRORPAGEID
 
 
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:tupeLe
 ErrorDocument 500 /error/500.html
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE tupeLe:ERRORPAGEID
 
 
-
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:yRaquP
 ErrorDocument 404 /404.html
-# DO NOT REMOVE THIS LINE AND THE LINES ABOVE yRaquP:ERRORPAGEID
 
-RewriteCond %{HTTPS_HOST} ^blog\.mangodevelopers\.com
-RewriteRule ^(.*)$ https://mangodevelopers.com/blog/$1 [R=301]
+# This allows you to redirect index.html to a specific subfolder
+Redirect /index.html /collegeinsider/
 
