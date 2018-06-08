@@ -3,6 +3,7 @@
 RewriteEngine on 
 Redirect /blog/ https://blog.mangodevelopers.com/
 Redirect /apps/ https://apps.mangodevelopers.com/
+Redirect /logo/logo.html https://apps.mangodevelopers.com/mango/mango-logo.html
 
 #Redirect "^blog/(.+)?$" "https://blog.mangodevelopers.com/$1"
 #RewriteRule ^blog/(.*)$ https://blog.mangodevelopers.com/$1 [L,QSA,R=301]

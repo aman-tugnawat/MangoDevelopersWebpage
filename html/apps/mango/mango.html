@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://apps.mangodevelopers.com/search/mango.google.html -->
+<html lang="en" class="gr__apps_mangodevelopers_com"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./mango.google_files/js2.js">
+    
+  </script><script src="./mango.google_files/js1.js"></script>
+  <meta name="robots" content="noindex">
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico">
+  <link rel="mask-icon" type="" href="          " color="#111"><link rel="canonical" href="https://codepen.io/mangodevs/pen/VdjaNG">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"><link rel="stylesheet prefetch" href="https://cdn.rawgit.com/zirafa/bootstrap-grid-only/94433673/css/grid24.css"><link rel="stylesheet prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style class="cp-pen-styles">body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+.toolbar {
+  position: absolute;
+  right: 2em;
+}
+.toolbar li {
+  display: inline-block;
+  padding-left: 15px;
+  vertical-align: middle;
+  color: #737373;
+}
+.toolbar li a {
+  color: currentColor;
+  text-decoration: none;
+}
+.toolbar li a:hover {
+  text-decoration: underline;
+}
+.toolbar li i:hover {
+  color: #272727;
+}
+.toolbar li:hover {
+  cursor: pointer;
+}
+.toolbar li img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+main.home {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-top: -7rem;
+  width: 584px;
+}
+main.home .logo {
+  width: 272px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+  background-repeat: no-repeat;
+  background-size: 272px 92px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+main.home .logo:after {
+  content: 'My';
+  display: none;
+  position: absolute;
+  right: 190px;
+  top: 72px;
+  color: #4285F4;
+  font-size: 18px;
+}
+main.home .search {
+  height: 44px;
+  width: 584px;
+  line-height: 44px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  font: 16px arial,sans-serif;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/59615/microphone.png) 540px center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  padding-left: 16px;
+}
+main.home .search:hover, main.home .search:focus {
+  outline: none;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+main.home .button {
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  -webkit-border-radius: 2px;
+  -webkit-user-select: none;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  text-align: center;
+}
+main.home .button:hover {
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
+  background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-image: -o-linear-gradient(top, #f8f8f8, #f1f1f1);
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  color: #222;
+}
+main.home .button.button-default {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+main.home .button.g-search {
+  width: 126px;
+  height: 36px;
+  line-height: 36px;
+}
+main.home .button.lucky {
+  width: 144px;
+  height: 36px;
+  line-height: 36px;
+}
+main.home .button-group {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+}
+.footer ul {
+  display: inline-block;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 40px;
+  -webkit-padding-end: 40px;
+}
+.footer ul:nth-child(1) li {
+  padding-right: 15px;
+}
+.footer ul:nth-child(2) {
+  float: right;
+}
+.footer ul:nth-child(2) li {
+  float: right;
+  padding-left: 15px;
+}
+.footer li {
+  display: inline-block;
+}
+.footer li a {
+  color: #666;
+  text-decoration: none;
+}
+.footer li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+</style></head><body data-gr-c-s-loaded="true">
+<div class="fluid-container">
+  
+  <div class="toolbar">
+    <ul>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Mail</a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Mazes</a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#"><i class="material-icons">apps</i></a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#"><i class="material-icons">notifications</i></a></li>
+      <li><img src="./mango.google_files/icon--profile.png"></li>
+    </ul>
+  </div>
+  
+  <main class="home">
+    <div class="logo"></div>
+    <form>
+      <input class="search" type="text" placeholder=" ">
+      <div class="button-group">
+        <button class="button button-default g-search" type="submit">
+          Mango Search
+        </button>
+        <button class="button button-default lucky" type="submit">
+          I'm Mango
+        </button>
+      </div>
+    </form>
+  </main>
+  
+  <div class="footer">
+    <ul>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Advertising</a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Business</a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">About</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Settings</a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Terms</a></li>
+      <li><a href="https://apps.mangodevelopers.com/search/mango.google.html#">Privacy</a></li>
+    </ul>
+  </div>
+  
+</div>
+
+</body></html>
